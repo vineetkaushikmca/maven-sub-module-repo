@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/mysitea" mode="merge"/>
+    <filter root="/content/mysitea" mode="merge"/>
+    <filter root="/content/dam/mysitea" mode="merge">
+        <exclude pattern="/content/dam/mysitea(/.*)?"/>
+        <include pattern="/content/dam/mysitea/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/mysitea/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/mysitea" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/mysitea/clientlibs"/>
+    <filter root="/apps/mysitea/components"/>
+    <filter root="/apps/mysitea/i18n"/>
+</workspaceFilter>
